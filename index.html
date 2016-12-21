@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+ *{
+ 	margin: 0px;
+ 	padding: 0px;
+ }
+ a{
+ 	text-decoration: none;
+ }
+ li{
+ 	list-style: none;
+ }
+    .hd_nav_li{
+    	width: 120px;
+    	height: 50px;
+    	text-align: center;
+    	line-height: 50px;
+    	float: left;
+    	color: #111;
+    }
+    .hd_nav_li a{
+    	color: #111;
+    }
+    .main_st_bg{
+    	overflow: hidden;
+    }
+
+    .main_st_li{
+    	height: 450px;
+    	width: 100%;
+    }
+    .main_st_li2{
+    	float: left;
+    	margin-left: 30px;
+    }
+    .main_st_li2 div{
+    	width: 20px;
+    	height: 20px;
+    	border-radius: 20px;
+    	background: #eee;
+    	text-align: center;
+    	line-height: 20px;
+    	cursor: pointer;
+    	
+    }
+    .main_st_dl{
+        width: 300px;
+        height: 380px;
+        background: #fff;
+        opacity:0.7;
+        padding-top: 30px;
+        padding-left: 20px;
+        border-radius: 30px;
+    }
+    .main_st_dl p{
+        margin-bottom: 20px;
+    }
+    .main_st_dl p input[type=text]{
+        width: 260px;
+        height: 40px;
+    }
+    .st_tb{
+        width: 250px;
+        height: 300px;
+       
+        float: left;
+       font-size: 17px;
+        margin-left: 130px;
+    }
+
+	</style>
+	<script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+	<script type="text/javascript" src="js/360index.js"></script>
+
+</head>
+<body>
+	<header style="width: 100%;height: 65px;background: rgb(67,173,255);">
+		 <div><img src="img/banner.png" style="margin: 20px 200px;width: 350px;height: 25px;"></div>
+	</header>
+	<header class="hd_nav">
+	 <div>
+		<ul style="margin-left: 200px; ">
+			<li class="hd_nav_li" style="border-bottom: solid 3px rgb(67,173,255)"><a href="">首页</a></li>
+			<li class="hd_nav_li"><a href="nub2.html">号码纠错</a></li>
+			<li class="hd_nav_li"><a href="nub3.html">业务介绍</a></li>
+			<li class="hd_nav_li"><a href="nub4.html">联系我们</a></li>
+		</ul>
+		</div>
+	</header>
+	<section id="main_st">
+		<div style="width: 100%;height:450px;position: absolute;top: 120px; " class="main_st_bg">
+		<div>
+		 <ul>
+			<li class="main_st_li" style="background:url(img/lb1.png)no-repeat;background-size:cover">111111</li>
+			<li class="main_st_li" style="background:url(img/lb2.png)no-repeat;background-size:cover">22222</li>
+			<li class="main_st_li" style="background:url(img/lb3.png)no-repeat;background-size:cover"></li>
+			<li class="main_st_li" style="background:url(img/lb4.png)no-repeat;background-size:cover"></li>
+			<li class="main_st_li" style="background:url(img/lb5.png)no-repeat;background-size:cover"></li>
+         </ul>
+         </div>
+         <div class="main_st_fb" style="position: absolute;top: 400px;left: 40%;">
+         	<ul>
+         		<li class="main_st_li2"><div>1</div></li>
+         		<li class="main_st_li2"><div>2</div></li>
+         		<li class="main_st_li2"><div>3</div></li>
+         		<li class="main_st_li2"><div>4</div></li>
+         		<li class="main_st_li2"><div>5</div></li>
+         	</ul>
+         </div>
+         <div class="main_st_dl" style="position: absolute;top: 25px;left: 1000px;">
+         	<p><span style="font-size: 25px;">登录</span><span style="float: right;margin-right: 40px;"><a href="">免费注册</a></span></p>
+         	
+         	<p><span>账号</span><br><input type="text" value="用户名/手机/邮箱"></input></p>
+         	
+         	<p><span>密码</span><br><input type="text"></input></p>
+         	<p><span></span></p>
+         	<p><input type="checkbox"></input>请保存这次登录信息</p>
+         	<p><button style="width:250px;height: 40px; border-radius: 10px;background: rgb(67,173,255);">登录</button></p>
+         	<p><span><a href="">忘记密码？</a></span><span style="float: right;margin-right: 40px;"><a href="">邮箱找回密码？</a></span></p>
+         </div>
+		</div>
+	</section>
+    <section style="position: absolute;top: 550px;width: 100%;height: 900px;text-align: center;padding-top: 50px;background: #eee;">
+        <div style="font-size: 40px;position: absolute;top: 40px;left: 550px;width: 400px;height: 50px;">平台优势</div>
+        <div style="width:1300px;height: 300px; margin: 20px; auto;position: absolute;top: 100px;left: 100px;">
+            <ul>
+                <li class="st_tb"><img src="img/tb1.png" ><p><span style="font-size: 20px;">海里用户</span></p><p>通过360手机卫士作为展示平台，是拥有6.5亿终端用户的移动流量超级入口。</p></li>
+                <li class="st_tb"><img src="img/tb2.png"><p><span style="font-size: 20px;">多样性营销平台</span></p><p>整合多种营销工具，可根据商家的营销活动及实际的客流情况，定制不同策略。</p></li>
+                <li class="st_tb"><img src="img/tb3.png"><p><span style="font-size: 20px;">安全品质</span></p><p>以安全为核心，为用户提供安全可靠的服务，为商家树立优质的品牌形象。</p></li>
+            </ul>
+        </div>
+        <div style="width: 100%;height: 400px;position: absolute;top: 500px;background: #ccc;">
+            <div style="font-size: 40px;margin: 0 auto;width: 400px;height: 50px;position: absolute;left: 550px;">自主营销平台</div>
+            <div style="width: 100%;height: 400px;">
+                <div style="height: 150px;width: 1500px;margin: 40px auto;position: absolute;top: 60px;"><img src="img/nr1.png"></div>
+                <div style="width: 100%;height: 200px;position: absolute;top: 250px;">
+                    <div style="width: 200px;height: 100px;position: absolute;left: 220px;">
+                        <span style="font-size: 20px;"><i>1</i>.注册账户</span>
+                        <p style="text-align: left;">开通360账户，享受营销服务</p>
+                    </div>
+                    <div style="width: 200px;height: 100px;position: absolute;left: 220px;">
+                        <span style="font-size: 20px;"><i>1</i>.注册账户</span>
+                        <p style="text-align: left;">开通360账户，享受营销服务</p>
+                    </div>
+                    <div style="width: 200px;height: 100px;position: absolute;left: 520px;">
+                        <span style="font-size: 20px;"><i>2</i>.登记信息</span>
+                        <p style="text-align: left;">登记商家的信息，为消费者全方位进行展现</p>
+                    </div>
+                    <div style="width: 200px;height: 100px;position: absolute;left: 810px;">
+                        <span style="font-size: 20px;"><i>3</i>.认证商家</span>
+                        <p style="text-align: left;">对商家进行认证，使消费者查询更加安全放心</p>
+                    </div>
+                     <div style="width: 200px;height: 100px;position: absolute;left: 1100px;">
+                        <span style="font-size: 20px;"><i>4</i>.开通服务</span>
+                        <p style="text-align: left;">开通多样性的营销服务，获取更多客源</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+	<footer style="width: 100%;height: 200px;position: absolute;top: 1450px;background: #555;">
+        <div style="height: 200px;width: 1500px;position: absolute;left: 200px;">
+            <div style="width: 80px;height: 50px;position: absolute;top: 20px;font-size: 20px;">合作伙伴</div>
+            <div style="width: 100%;height: 130px;position: absolute;top: 60px;">
+                <ul>
+                    <li style="float: left;margin-right: 11px;"><img src="img/hb2.png" style="width: 150px;height: 60px;"></li>
+                    <li style="float: left;margin-right: 11px;"><img src="img/hb3.png" style="width: 150px;height: 60px;"></li>
+                    <li style="float: left;margin-right: 11px;"><img src="img/hb4.png" style="width: 150px;height: 60px;"></li>
+                    <li style="float: left;margin-right: 11px;"><img src="img/hb5.png" style="width: 150px;height: 60px;"></li>
+                    <li style="float: left;margin-right: 11px;"><img src="img/hb6.png" style="width: 150px;height: 60px;"></li>
+                    <li style="float: left;margin-right: 11px;"><img src="img/hb7.png" style="width: 150px;height: 60px;"></li>
+                    <li style="float: left;margin-right: 11px;"><img src="img/hb.png" style="width: 150px;height: 60px;"></li>
+                </ul>
+            </div>
+
+             
+        </div>
+         <div style="width: 100%;height: 50px;position: absolute;top: 150px;left: 70px;">    <p style="text-align: center;font-size: 15px;">Copyright © 2005-2016 360.CN 版权所有 京ICP证080047号[京ICP备08010314号-6] 京公网安备11000002000006号</p></div>
+    </footer>
+</body>
+</html>

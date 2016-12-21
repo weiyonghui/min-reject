@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+*{
+ 	margin: 0px;
+ 	padding: 0px;
+ }
+ a{
+ 	text-decoration: none;
+ }
+ li{
+ 	list-style: none;
+ }
+    .hd_nav_li{
+    	width: 120px;
+    	height: 50px;
+    	text-align: center;
+    	line-height: 50px;
+    	float: left;
+    	color: #111;
+    }
+    .hd_nav_li a{
+    	color: #111;
+    }
+    .maodian{
+    	width: 100%;
+        height: 40px;
+        text-align: center;
+        line-height: 40px;
+    	cursor: pointer;
+    }
+	</style>
+	<script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+	<script type="text/javascript">
+		
+		$(function(){
+          $('.maodian').click(function(){
+                 i=$(this).index();
+                 $(this).css({'background':'#ccc'}).siblings().css({'background':'rgb(70,170,255)'})
+                 var jl=$('.gbjl').eq(i).offset().top;
+                 
+                
+            $("body,html").animate({scrollTop:jl},1000);
+          })
+          $('#top').click(function(){
+          	$("body,html").animate({scrollTop:'0px'},1000);
+          })
+		})
+	</script>
+</head>
+<body>
+	<header style="width: 100%;height: 65px;background: rgb(67,173,255);">
+		 <div><img src="img/banner.png" style="margin: 20px 200px;width: 350px;height: 25px;"></div>
+	</header>
+	<header class="hd_nav">
+	 <div>
+		<ul style="margin-left: 200px; ">
+			<li class="hd_nav_li"><a href="index.html">首页</a></li>
+			<li class="hd_nav_li"><a href="nub2.html">号码纠错</a></li>
+			<li class="hd_nav_li" style="border-bottom: solid 3px rgb(67,173,255)"><a href="nub3.html">业务介绍</a></li>
+			<li class="hd_nav_li"><a href="nub4.html">联系我们</a></li>
+		</ul>
+		</div>
+	</header>
+	 <aside style="width: 120px;height: 200px;position: fixed; left: 80px;top: 250px; background: rgb(70,170,255);border-radius: 10px;box-shadow: 5px 5px #999;"><ul>
+	 	<li class="maodian" style="background: #999">商家秀</li>
+	 	<li class="maodian">自定义链接</li>
+	 	<li class="maodian">黄页</li>
+	 	<li class="maodian">营销管理</li>
+	 	<li class="maodian">移动建站</li>
+	 </ul></aside>
+	 <section style="margin: 0;padding: 0;">
+	 	<div id="tp1"><img src="img/bg1.png" style="width: 100%;height: 410px;" class="gbjl"></div>
+	 </section>
+	  	<div id="tp1"><img src="img/bg2.png" style="width: 100%;height: 410px;" class="gbjl"></div>
+	  	<div id="tp1" ><img src="img/bg3.png" style="width: 100%;height: 410px;" class="gbjl"></div>
+	  	<div id="tp1"><img src="img/bg4.png" style="width: 100%;height: 410px;" class="gbjl"></div>
+	  	<div id="tp5"><img src="img/bg5.jpg" style="width: 100%;height: 410px;" class="gbjl"></div>
+	  	
+	 </section>
+	 <footer style="width: 100%;height: 60px;background: #666;position: absolute;top: 2180px;text-align: center;line-height: 60px;">
+	     <div style="width: 1000px;height: 60px;position: absolute;left: 20%;line-height: 60px;">	Copyright © 2005-2016 360.CN 版权所有 京ICP证080047号[京ICP备08010314号-6] 京公网安备11000002000006号</div>
+	</footer>
+	<div style="width: 60px;height: 60px;border-radius: 60px;text-align: center;line-height: 60px;background: rgb(70,170,255);position: fixed;bottom: 60px;right: 50px;cursor: pointer;" id="top">Top</div>
+</body>
+</html>
