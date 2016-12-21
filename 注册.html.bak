@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>当当网-新用户注册</title>
+  <style>
+  h2{
+  padding:0;
+  margin:0;
+  }
+  body{
+  background:#F6F9FB;
+  font-size: 12px;
+  color: #404040;
+  }
+  a{
+  text-decoration:none;
+  }
+  .head{
+  width:960px;
+  border-bottom:3px #F07700 solid;
+  margin-bottom:30px;
+  }
+  .head,.content{
+  background:#fff;
+  width:950px;
+  }
+  .content h2{
+  padding-left:20px;
+  border-bottom:1px #ECEEF2 solid;
+  width:900px;
+  margin:0 auto;
+  }
+  .content h2 span{
+	margin-left:650px;
+  }
+  .content h2 span a{
+  color:#646464;
+  font-size:12px;
+  font-weight:normal;
+  padding:0 10px;
+  }
+  .content h2 span a:hover{
+  color:#FF3C00;
+  }
+  /*提示*/
+  .tishi{
+  line-height:24px;
+  color: #828282;
+  background:#FEF7F5;
+  border:1px #FEDBD1 solid;
+  width:552px;
+  text-align:right;
+  margin:15px auto 15px auto;
+  }
+  /*信息输入框*/
+  table{
+  width:450px;
+  margin:0 auto;
+  }
+  .td{
+  font-size:14px;
+  text-align:right;
+  }
+  .input{
+  width:312px;
+  }
+  .input,.input1{
+  padding:10px;
+  }
+  tr{
+  line-height:70px;
+  }
+  .bottom{
+	margin-top:40px;
+	color:#666666;
+	text-align:center;
+	}
+	.wai{
+		width:950px;
+		margin:0 auto;
+	}
+  </STYLE>
+ </head>
+ <body>
+ <div class="wai">
+  <div class="head">
+  <img src="images/logo2.png"/>
+  </div>
+  <div class="content">
+	<h2>新用户注册<span><a href="当当网.html"> 当当首页</a><a href="#">注册帮助</a></span></h2>
+	<div class="tishi">
+		由于近期网络邮箱信息泄露事件频发，建议您勿设置与邮箱密码相同的登录和支付密码，谨防诈骗！
+	</div>
+	<form method="post" action="#">
+	<table>
+		<tr>
+			<td class="td">邮箱／手机号码</td>
+			<td><input type="text" name="name" placeholder="邮箱/昵称/手机号码" class="input" required="required"></td>
+		</tr>
+		<tr>
+			<td class="td">登录密码</td>
+			<td><input type="password" name="password" class="input" placeholder="登录密码" class="input" required="required"></td>
+		</tr>
+		<tr>
+			<td class="td">确认密码</td>
+			<td><input type="password" name="queren"  placeholder="再次输入密码" class="input" required="required"></td>
+		</tr>
+		<tr>
+			<td class="td">验证码</td>
+			<td><input type="text" name="yanzheng" placeholder="请输入验证码" class="input1" required="required"><img src="images/yanzheng.png"/></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><input type="checkbox" value="tongyi" checked="checked">我已阅读并同意 <a href="#">《当当交易条款》</a>和 <a href="#">《当当社区条款》</a></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td style="text-align:center;"><input type="image" src="images/btt.png"/></td>
+		</tr>
+	</table>
+	</form>
+  </div>
+	<div class="bottom">
+	<p>Copyright (C) 当当网 2004-2012, All Rights Reserved|京ICP证041189号音像制品经营许可证 京音网8号</p>
+	<img src="images/img4.png" style="margin-right:20px;"/><img src="images/img5.png"/>
+	</div>
+</div>
+ </body>
+</html>

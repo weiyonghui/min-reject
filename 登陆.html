@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>登陆-当当网</title>
+  <style>
+  p{
+  margin:0;
+  padding:0;
+  }
+  img{
+	margin:0;
+	padding:0;
+  }
+  body{
+  background:#F6F9FB;
+  font-family: "Microsoft Yahei";
+  font-size:12px;
+  }
+  a{
+  text-decoration: none;
+  }
+  #wai{
+  width:870px;
+  position:relative;
+  margin:0 auto;
+  }
+  .head ul{
+  float:right;
+  }
+  .head ul li{
+  list-style:none;
+  float:left;
+  padding:20px 10px 0 5px;
+  }
+  li a{
+  color:#787878;
+  }
+  li a:hover{
+  text-decoration: underline;
+  }
+  .tishi{
+  line-height:24px;
+  color: #828282;
+  background:#FEF7F5;
+  border:1px #FEDBD1 solid;
+  width:552px;
+  text-align:right;
+  margin:10px 0 0 0;
+  position:absolute;
+  right:0px;
+  }
+  #content{
+  margin-top:40px;
+  background:#fff;
+  position:relative;
+  }
+  .infro {
+    width:311px;
+	position:absolute;
+	right:40px;
+	top:20px;
+	}
+	.input{
+	border:0;
+	width:270px;
+	padding:10px 0 10px 30px;
+	}
+	.username,.password{
+	border:1px #E6E6E6 solid;
+	margin:20px 0 40px 0;
+	}
+	.check{
+	margin-bottom:20px;
+	}
+	.bottom{
+	margin-top:40px;
+	color:#666666;
+	text-align:center;
+	}
+  </style>
+ </head>
+ <body>
+  <div id="wai">
+	<div class="head">
+		<img src="images/logo1.png"/>
+		<ul>
+			<li><a href="#">货到付款</a></li>
+			<li><a href="#">正品保障</a></li>
+			<li><a href="#">上门退款</a></li>
+			<li><a href="当当网.html">返回首页</a></li>
+		</ul>
+	</div>
+	<div class="tishi">
+		由于近期网络邮箱信息泄露事件频发，建议您勿设置与邮箱密码相同的登录和支付密码，谨防诈骗！
+	</div>
+	<form method="post" action="#">
+	<div id="content">
+		<div>
+			<img src="images/img3.png"/>
+		</div>
+		<div class="infro">
+			<div class="username">
+				<input type="text" name="name" class="input" placeholder="邮箱/昵称/手机号码" required="required">
+			</div>
+			<div class="password">
+				<input type="password" name="password" class="input" placeholder="密码" required="required">
+			</div>
+			<div class="check"><input type="checkbox" value="zidongdenglu">七天内自动登陆<a href="#" style="padding-left:150px;">忘记密码?</a></div>
+			<input type="image" src="images/denglu.png"/>
+			<div style="margin-top:10px;">使用合作网站登录 <a href="注册.html" style="padding-left:150px;">立即注册</a></div>
+		</div>
+	</div>
+	</form>
+	<div class="bottom">
+	<p>Copyright (C) 当当网 2004-2012, All Rights Reserved|京ICP证041189号音像制品经营许可证 京音网8号</p>
+	<img src="images/img4.png" style="margin-right:20px;"/><img src="images/img5.png"/>
+	</div>
+  </div>
+ </body>
+</html>

@@ -1,0 +1,47 @@
+ div{
+  height:195px;
+  width:230px;
+  }
+  dd,dt{
+  float:left;
+  margin:0;
+  padding:0;
+  }
+  dd{
+  width:94px;
+  line-height:22px;
+  margin-top:15px;
+  font-size:14px;
+  }
+  a{
+  font:12px Arial;
+  text-decoration:none;
+  }
+  p a{
+  color:#5097BC;
+  }
+  p a:hover{
+  text-decoration:underline;
+  }
+  dl a{
+  color:#000;
+  }
+  dl a:hover{
+  color:#EC7814;
+  text-decoration:underline;
+  }
+  p{
+	color: #000;
+	font:bold 16px  "Microsoft Yahei";
+  }
+  .pad{
+  padding-left:100px;
+  }
+  .dazhe{
+  color:#C30000;
+  font-weight:bold;
+  }
+  .yuanjia{
+  color:#AAAAAA;
+  text-decoration:line-through;
+  }
